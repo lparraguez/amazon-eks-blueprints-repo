@@ -41,8 +41,8 @@ terraform {
 
 # Configuration will need to be adjusted for your specific connection to AWS
 provider "aws" {
-  shared_config_files      = ["C:\\Users\\lparr\\.aws\\config)"]
-  shared_credentials_files = ["C:\\Users\\lparr\\.aws\\credentials)"]
+  shared_config_files      = ["C:\\Users\\xxxxx\\.aws\\config)"]
+  shared_credentials_files = ["C:\\Users\\xxxxx\\.aws\\credentials)"]
   alias  = "default"
   default_tags {
     tags = local.tags
